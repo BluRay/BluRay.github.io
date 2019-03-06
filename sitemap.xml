@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2019/03/06/hello-world/</loc>
+    <loc>https://bluray.github.io/2019/03/06/studyhexo/</loc>
     
-    <lastmod>2019-03-06T05:15:25.891Z</lastmod>
+    <lastmod>2019-03-06T08:34:35.421Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://bluray.github.io/2019/03/06/hello-world/</loc>
+    
+    <lastmod>2019-03-06T07:00:40.504Z</lastmod>
     
   </url>
   
