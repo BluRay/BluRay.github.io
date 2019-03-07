@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bluray.github.io/"/>
-  <updated>2019-03-07T01:59:30.750Z</updated>
+  <updated>2019-03-07T06:47:49.678Z</updated>
   <id>https://bluray.github.io/</id>
   
   <author>
@@ -17,13 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>学习hexo及MarkDown</title>
+    <title>一楠成长纪录</title>
+    <link href="https://bluray.github.io/2019/03/yinanphoto/"/>
+    <id>https://bluray.github.io/2019/03/yinanphoto/</id>
+    <published>2019-03-07T05:37:29.000Z</published>
+    <updated>2019-03-07T06:47:49.678Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="start"><a href="#start" class="headerlink" title="start"></a>start</h2><table><thead><tr><th style="text-align:center">第一张</th><th style="text-align:center">第二张</th><th style="text-align:center">第三张</th></tr></thead><tbody><tr><td style="text-align:center"><img src="/img/yinan/1975730200.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/1975730200.jpg');"></td><td style="text-align:center"><img src="/img/yinan/001.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/001.jpg');"></td><td style="text-align:center"><img src="/img/yinan/001.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/001.jpg');"></td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;start&quot;&gt;&lt;a href=&quot;#start&quot; class=&quot;headerlink&quot; title=&quot;start&quot;&gt;&lt;/a&gt;start&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;第一张&lt;/th&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="GitHub" scheme="https://bluray.github.io/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学习hexo及MarkDown语法</title>
     <link href="https://bluray.github.io/2019/03/studyhexo/"/>
     <id>https://bluray.github.io/2019/03/studyhexo/</id>
     <published>2019-03-06T07:04:39.000Z</published>
-    <updated>2019-03-07T01:59:30.750Z</updated>
+    <updated>2019-03-07T05:06:06.676Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="部署到GitHub"><a href="#部署到GitHub" class="headerlink" title="部署到GitHub"></a>部署到GitHub</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/BluRay/BluRay.github.io.git .deploy/BluRay.github.io</span><br><span class="line">cp -R public/* .deploy/BluRay.github.io</span><br><span class="line"><span class="built_in">cd</span> .deploy/BluRay.github.io/</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">"update"</span></span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure><h1 id="MarkDown标记语法"><a href="#MarkDown标记语法" class="headerlink" title="MarkDown标记语法"></a>MarkDown标记语法</h1><h2 id="标题设置"><a href="#标题设置" class="headerlink" title="标题设置"></a>标题设置</h2><p>第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。<br>第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大）</p><h2 id="块注释（blockquote）"><a href="#块注释（blockquote）" class="headerlink" title="块注释（blockquote）"></a>块注释（blockquote）</h2><p>通过在文字开头添加“&gt;”表示块注释。（当&gt;和文字之间添加五个blank时，块注释的文字会有变化。）</p><h2 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h2><p>将需要设置为斜体的文字两端使用1个“*”或者“_”夹起来</p><h2 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h2><p>将需要设置为斜体的文字两端使用2个“*”或者“_”夹起来</p><h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><p>在文字开头添加(<em>, +, and -)实现无序列表。但是要注意在(</em>, +, and -)和文字之间需要添加空格。（建议：一个文档中只是用一种无序列表的表示方式）</p><h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><p>使用数字后面跟上句号。（还要有空格）</p><h2 id="链接（Links）"><a href="#链接（Links）" class="headerlink" title="链接（Links）"></a>链接（Links）</h2><p>Markdown中有两种方式，实现链接，分别为内联方式和引用方式。<br>内联方式：This is an <a href="http://example.com/" target="_blank" rel="noopener">example link</a>.<br>引用方式：<br>I get 10 times more traffic from <a href="http://google.com/" title="Google" target="_blank" rel="noopener">Google</a> than from <a href="http://search.yahoo.com/" title="Yahoo Search" target="_blank" rel="noopener">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search" target="_blank" rel="noopener">MSN</a>.  </p><h2 id="图片（Images）"><a href="#图片（Images）" class="headerlink" title="图片（Images）"></a>图片（Images）</h2><p>图片的处理方式和链接的处理方式，非常的类似。<br>内联方式：<img src="/img/theglaxy.jpg" alt="alt text" title="glaxy"><br>引用方式：<br><img src="/img/theglaxy.jpg" alt="alt text" title="glaxy"> </p><h2 id="代码（HTML中所谓的Code）"><a href="#代码（HTML中所谓的Code）" class="headerlink" title="代码（HTML中所谓的Code）"></a>代码（HTML中所谓的Code）</h2><p>实现方式有两种：<br>第一种：简单文字出现一个代码框。使用<code>&lt;blockquote&gt;</code>。（<code>不是单引号而是左上角的ESC下面~中的</code>）<br>第二种：大片文字需要实现代码框。使用Tab和四个空格。</p><h2 id="脚注（footnote）"><a href="#脚注（footnote）" class="headerlink" title="脚注（footnote）"></a>脚注（footnote）</h2><p>实现方式如下：<br>hello<a href="hi">^hello</a></p><h2 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h2><p>在空白行下方添加三条“-”横线。（前面讲过在文字下方添加“-”，实现的2级标题）</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="部署到GitHub"><a href="#部署到GitHub" class="headerlink" title="部署到GitHub"></a>部署到GitHub</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/BluRay/BluRay.github.io.git .deploy/BluRay.github.io</span><br><span class="line">cp -R public/* .deploy/BluRay.github.io</span><br><span class="line"><span class="built_in">cd</span> .deploy/BluRay.github.io/</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">"update"</span></span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure><h1 id="MarkDown标记语法"><a href="#MarkDown标记语法" class="headerlink" title="MarkDown标记语法"></a>MarkDown标记语法</h1><h2 id="标题设置"><a href="#标题设置" class="headerlink" title="标题设置"></a>标题设置</h2><p>第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。<br>第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大）</p><h2 id="块注释（blockquote）"><a href="#块注释（blockquote）" class="headerlink" title="块注释（blockquote）"></a>块注释（blockquote）</h2><p>通过在文字开头添加“&gt;”表示块注释。（当&gt;和文字之间添加五个blank时，块注释的文字会有变化。）</p><h2 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h2><p>将需要设置为斜体的文字两端使用1个“*”或者“_”夹起来</p><h2 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h2><p>将需要设置为斜体的文字两端使用2个“*”或者“_”夹起来</p><h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><p>在文字开头添加(<em>, +, and -)实现无序列表。但是要注意在(</em>, +, and -)和文字之间需要添加空格。（建议：一个文档中只是用一种无序列表的表示方式）</p><h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><p>使用数字后面跟上句号。（还要有空格）</p><h2 id="链接（Links）"><a href="#链接（Links）" class="headerlink" title="链接（Links）"></a>链接（Links）</h2><p>Markdown中有两种方式，实现链接，分别为内联方式和引用方式。<br>内联方式：This is an <a href="http://example.com/" target="_blank" rel="noopener">example link</a>.<br>引用方式：<br>I get 10 times more traffic from <a href="http://google.com/" title="Google" target="_blank" rel="noopener">Google</a> than from <a href="http://search.yahoo.com/" title="Yahoo Search" target="_blank" rel="noopener">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search" target="_blank" rel="noopener">MSN</a>.  </p><h2 id="图片（Images）"><a href="#图片（Images）" class="headerlink" title="图片（Images）"></a>图片（Images）</h2><p>图片的处理方式和链接的处理方式，非常的类似。<br>内联方式：<img src="/img/theglaxy.jpg" alt="alt text" title="glaxy"><br>引用方式：<br><img src="/img/theglaxy.jpg" alt="alt text" title="glaxy"> </p><p><img src="/img/glaxy.jpg" style="cursor:pointer" onclick="window.open('/img/glaxy.jpg');" width="50%" height="50%"></p><h2 id="代码（HTML中所谓的Code）"><a href="#代码（HTML中所谓的Code）" class="headerlink" title="代码（HTML中所谓的Code）"></a>代码（HTML中所谓的Code）</h2><p>实现方式有两种：<br>第一种：简单文字出现一个代码框。使用<code>&lt;blockquote&gt;</code>。（<code>不是单引号而是左上角的ESC下面~中的</code>）<br>第二种：大片文字需要实现代码框。使用Tab和四个空格。</p><h2 id="脚注（footnote）"><a href="#脚注（footnote）" class="headerlink" title="脚注（footnote）"></a>脚注（footnote）</h2><p>实现方式如下：<br>hello<a href="hi">^hello</a></p><h2 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h2><p>在空白行下方添加三条“-”横线。（前面讲过在文字下方添加“-”，实现的2级标题）</p>]]></content>
     
     <summary type="html">
     
