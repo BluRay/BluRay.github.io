@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bluray.github.io/"/>
-  <updated>2019-03-11T05:12:30.863Z</updated>
+  <updated>2019-03-11T08:16:42.547Z</updated>
   <id>https://bluray.github.io/</id>
   
   <author>
@@ -21,18 +21,20 @@
     <link href="https://bluray.github.io/2019/03/mobileDevStudy/"/>
     <id>https://bluray.github.io/2019/03/mobileDevStudy/</id>
     <published>2019-03-11T05:05:06.000Z</published>
-    <updated>2019-03-11T05:12:30.863Z</updated>
+    <updated>2019-03-11T08:16:42.547Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="onsen-UI"><a href="#onsen-UI" class="headerlink" title="onsen UI"></a>onsen UI</h1><h1 id="Cordova"><a href="#Cordova" class="headerlink" title="Cordova"></a>Cordova</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="onsen-UI"><a href="#onsen-UI" class="headerlink" title="onsen UI"></a>onsen UI</h1><p><a href="https://cordova.apache.org/docs/en/latest/guide/cli/index.html" target="_blank" rel="noopener">https://cordova.apache.org/docs/en/latest/guide/cli/index.html</a></p><h2 id="Create-your-first-Cordova-app"><a href="#Create-your-first-Cordova-app" class="headerlink" title="Create your first Cordova app"></a>Create your first Cordova app</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo npm install -g cordova</span><br></pre></td></tr></table></figure><h2 id="Create-the-App"><a href="#Create-the-App" class="headerlink" title="Create the App"></a>Create the App</h2><p>Go to the directory where you maintain your source code, and create a cordova project:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cordova create hello com.example.hello HelloWorld</span><br></pre></td></tr></table></figure></p><p>This creates the required directory structure for your cordova app. By default, the cordova create script generates a skeletal web-based application whose home page is the project’s www/index.html file.</p><h2 id="Add-Platforms"><a href="#Add-Platforms" class="headerlink" title="Add Platforms"></a>Add Platforms</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ cordova platform add ios</span><br><span class="line">$ cordova platform add android</span><br><span class="line">$ cordova platform ls</span><br></pre></td></tr></table></figure><h2 id="Install-pre-requisites-for-building"><a href="#Install-pre-requisites-for-building" class="headerlink" title="Install pre-requisites for building"></a>Install pre-requisites for building</h2><p>To build and run apps, you need to install SDKs for each platform you wish to target. Alternatively, if you are using browser for development you can use browser platform which does not require any platform SDKs.</p><h2 id="Build-the-App"><a href="#Build-the-App" class="headerlink" title="Build the App"></a>Build the App</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cordova build</span><br><span class="line">$ cordova build ios</span><br></pre></td></tr></table></figure><h2 id="Test-the-App"><a href="#Test-the-App" class="headerlink" title="Test the App"></a>Test the App</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cordova <span class="built_in">emulate</span> android</span><br><span class="line">$ cordova run android</span><br></pre></td></tr></table></figure><h2 id="Add-Plugins"><a href="#Add-Plugins" class="headerlink" title="Add Plugins"></a>Add Plugins</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cordova plugin search camera</span><br></pre></td></tr></table></figure><h2 id="Using-merges-to-Customize-Each-Platform"><a href="#Using-merges-to-Customize-Each-Platform" class="headerlink" title="Using merges to Customize Each Platform"></a>Using merges to Customize Each Platform</h2><h2 id="Updating-Cordova-and-Your-Project"><a href="#Updating-Cordova-and-Your-Project" class="headerlink" title="Updating Cordova and Your Project"></a>Updating Cordova and Your Project</h2><h1 id="Cordova"><a href="#Cordova" class="headerlink" title="Cordova"></a>Cordova</h1>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;onsen-UI&quot;&gt;&lt;a href=&quot;#onsen-UI&quot; class=&quot;headerlink&quot; title=&quot;onsen UI&quot;&gt;&lt;/a&gt;onsen UI&lt;/h1&gt;&lt;h1 id=&quot;Cordova&quot;&gt;&lt;a href=&quot;#Cordova&quot; class=&quot;header
+        &lt;h1 id=&quot;onsen-UI&quot;&gt;&lt;a href=&quot;#onsen-UI&quot; class=&quot;headerlink&quot; title=&quot;onsen UI&quot;&gt;&lt;/a&gt;onsen UI&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://cordova.apache.org/docs/en/la
       
     
     </summary>
+    
+      <category term="学习资料" scheme="https://bluray.github.io/categories/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/"/>
     
     
       <category term="GitHub" scheme="https://bluray.github.io/tags/GitHub/"/>
@@ -44,7 +46,7 @@
     <link href="https://bluray.github.io/2019/03/yinanphoto/"/>
     <id>https://bluray.github.io/2019/03/yinanphoto/</id>
     <published>2019-03-07T05:37:29.000Z</published>
-    <updated>2019-03-08T07:33:56.938Z</updated>
+    <updated>2019-03-11T07:36:49.338Z</updated>
     
     <content type="html"><![CDATA[<h2 id="start"><a href="#start" class="headerlink" title="start"></a>start</h2><table><thead><tr><th style="text-align:center"><img src="/img/yinan/1975730200.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/1975730200.jpg');"></th></tr></thead><tbody><tr><td style="text-align:center">2019-02-05 春节</td></tr><tr><td style="text-align:center"><img src="/img/yinan/001.jpg" style="cursor:pointer" width="400px" height="300px" onclick="window.open('/img/yinan/001.jpg');"></td></tr><tr><td style="text-align:center">2018-12-14 产房</td></tr><tr><td style="text-align:center"><img src="/img/yinan/000.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/000.jpg');"></td></tr><tr><td style="text-align:center">2018-12-08 省妇幼待产</td></tr></tbody></table>]]></content>
     
@@ -60,6 +62,8 @@
     
     </summary>
     
+      <category term="生活点滴" scheme="https://bluray.github.io/categories/%E7%94%9F%E6%B4%BB%E7%82%B9%E6%BB%B4/"/>
+    
     
       <category term="GitHub" scheme="https://bluray.github.io/tags/GitHub/"/>
     
@@ -70,7 +74,7 @@
     <link href="https://bluray.github.io/2019/03/studyhexo/"/>
     <id>https://bluray.github.io/2019/03/studyhexo/</id>
     <published>2019-03-06T07:04:39.000Z</published>
-    <updated>2019-03-07T05:06:06.676Z</updated>
+    <updated>2019-03-11T07:34:42.717Z</updated>
     
     <content type="html"><![CDATA[<h1 id="部署到GitHub"><a href="#部署到GitHub" class="headerlink" title="部署到GitHub"></a>部署到GitHub</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/BluRay/BluRay.github.io.git .deploy/BluRay.github.io</span><br><span class="line">cp -R public/* .deploy/BluRay.github.io</span><br><span class="line"><span class="built_in">cd</span> .deploy/BluRay.github.io/</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">"update"</span></span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure><h1 id="MarkDown标记语法"><a href="#MarkDown标记语法" class="headerlink" title="MarkDown标记语法"></a>MarkDown标记语法</h1><h2 id="标题设置"><a href="#标题设置" class="headerlink" title="标题设置"></a>标题设置</h2><p>第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。<br>第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大）</p><h2 id="块注释（blockquote）"><a href="#块注释（blockquote）" class="headerlink" title="块注释（blockquote）"></a>块注释（blockquote）</h2><p>通过在文字开头添加“&gt;”表示块注释。（当&gt;和文字之间添加五个blank时，块注释的文字会有变化。）</p><h2 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h2><p>将需要设置为斜体的文字两端使用1个“*”或者“_”夹起来</p><h2 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h2><p>将需要设置为斜体的文字两端使用2个“*”或者“_”夹起来</p><h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><p>在文字开头添加(<em>, +, and -)实现无序列表。但是要注意在(</em>, +, and -)和文字之间需要添加空格。（建议：一个文档中只是用一种无序列表的表示方式）</p><h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><p>使用数字后面跟上句号。（还要有空格）</p><h2 id="链接（Links）"><a href="#链接（Links）" class="headerlink" title="链接（Links）"></a>链接（Links）</h2><p>Markdown中有两种方式，实现链接，分别为内联方式和引用方式。<br>内联方式：This is an <a href="http://example.com/" target="_blank" rel="noopener">example link</a>.<br>引用方式：<br>I get 10 times more traffic from <a href="http://google.com/" title="Google" target="_blank" rel="noopener">Google</a> than from <a href="http://search.yahoo.com/" title="Yahoo Search" target="_blank" rel="noopener">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search" target="_blank" rel="noopener">MSN</a>.  </p><h2 id="图片（Images）"><a href="#图片（Images）" class="headerlink" title="图片（Images）"></a>图片（Images）</h2><p>图片的处理方式和链接的处理方式，非常的类似。<br>内联方式：<img src="/img/theglaxy.jpg" alt="alt text" title="glaxy"><br>引用方式：<br><img src="/img/theglaxy.jpg" alt="alt text" title="glaxy"> </p><p><img src="/img/glaxy.jpg" style="cursor:pointer" onclick="window.open('/img/glaxy.jpg');" width="50%" height="50%"></p><h2 id="代码（HTML中所谓的Code）"><a href="#代码（HTML中所谓的Code）" class="headerlink" title="代码（HTML中所谓的Code）"></a>代码（HTML中所谓的Code）</h2><p>实现方式有两种：<br>第一种：简单文字出现一个代码框。使用<code>&lt;blockquote&gt;</code>。（<code>不是单引号而是左上角的ESC下面~中的</code>）<br>第二种：大片文字需要实现代码框。使用Tab和四个空格。</p><h2 id="脚注（footnote）"><a href="#脚注（footnote）" class="headerlink" title="脚注（footnote）"></a>脚注（footnote）</h2><p>实现方式如下：<br>hello<a href="hi">^hello</a></p><h2 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h2><p>在空白行下方添加三条“-”横线。（前面讲过在文字下方添加“-”，实现的2级标题）</p>]]></content>
     
@@ -82,6 +86,8 @@
       
     
     </summary>
+    
+      <category term="学习资料" scheme="https://bluray.github.io/categories/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/"/>
     
     
       <category term="GitHub" scheme="https://bluray.github.io/tags/GitHub/"/>
