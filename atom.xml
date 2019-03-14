@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bluray.github.io/"/>
-  <updated>2019-03-11T08:16:42.547Z</updated>
+  <updated>2019-03-14T07:27:18.869Z</updated>
   <id>https://bluray.github.io/</id>
   
   <author>
@@ -17,19 +17,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>移动平台开发学习</title>
-    <link href="https://bluray.github.io/2019/03/mobileDevStudy/"/>
-    <id>https://bluray.github.io/2019/03/mobileDevStudy/</id>
-    <published>2019-03-11T05:05:06.000Z</published>
-    <updated>2019-03-11T08:16:42.547Z</updated>
+    <title>移动平台开发学习2</title>
+    <link href="https://bluray.github.io/2019/03/mobileDevStudy2/"/>
+    <id>https://bluray.github.io/2019/03/mobileDevStudy2/</id>
+    <published>2019-03-14T07:18:16.000Z</published>
+    <updated>2019-03-14T07:27:18.869Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="onsen-UI"><a href="#onsen-UI" class="headerlink" title="onsen UI"></a>onsen UI</h1><p><a href="https://cordova.apache.org/docs/en/latest/guide/cli/index.html" target="_blank" rel="noopener">https://cordova.apache.org/docs/en/latest/guide/cli/index.html</a></p><h2 id="Create-your-first-Cordova-app"><a href="#Create-your-first-Cordova-app" class="headerlink" title="Create your first Cordova app"></a>Create your first Cordova app</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo npm install -g cordova</span><br></pre></td></tr></table></figure><h2 id="Create-the-App"><a href="#Create-the-App" class="headerlink" title="Create the App"></a>Create the App</h2><p>Go to the directory where you maintain your source code, and create a cordova project:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cordova create hello com.example.hello HelloWorld</span><br></pre></td></tr></table></figure></p><p>This creates the required directory structure for your cordova app. By default, the cordova create script generates a skeletal web-based application whose home page is the project’s www/index.html file.</p><h2 id="Add-Platforms"><a href="#Add-Platforms" class="headerlink" title="Add Platforms"></a>Add Platforms</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ cordova platform add ios</span><br><span class="line">$ cordova platform add android</span><br><span class="line">$ cordova platform ls</span><br></pre></td></tr></table></figure><h2 id="Install-pre-requisites-for-building"><a href="#Install-pre-requisites-for-building" class="headerlink" title="Install pre-requisites for building"></a>Install pre-requisites for building</h2><p>To build and run apps, you need to install SDKs for each platform you wish to target. Alternatively, if you are using browser for development you can use browser platform which does not require any platform SDKs.</p><h2 id="Build-the-App"><a href="#Build-the-App" class="headerlink" title="Build the App"></a>Build the App</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cordova build</span><br><span class="line">$ cordova build ios</span><br></pre></td></tr></table></figure><h2 id="Test-the-App"><a href="#Test-the-App" class="headerlink" title="Test the App"></a>Test the App</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cordova <span class="built_in">emulate</span> android</span><br><span class="line">$ cordova run android</span><br></pre></td></tr></table></figure><h2 id="Add-Plugins"><a href="#Add-Plugins" class="headerlink" title="Add Plugins"></a>Add Plugins</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cordova plugin search camera</span><br></pre></td></tr></table></figure><h2 id="Using-merges-to-Customize-Each-Platform"><a href="#Using-merges-to-Customize-Each-Platform" class="headerlink" title="Using merges to Customize Each Platform"></a>Using merges to Customize Each Platform</h2><h2 id="Updating-Cordova-and-Your-Project"><a href="#Updating-Cordova-and-Your-Project" class="headerlink" title="Updating Cordova and Your Project"></a>Updating Cordova and Your Project</h2><h1 id="Cordova"><a href="#Cordova" class="headerlink" title="Cordova"></a>Cordova</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="Onsen-UI"><a href="#Onsen-UI" class="headerlink" title="Onsen UI"></a>Onsen UI</h1><p><a href="https://onsen.io" target="_blank" rel="noopener">https://onsen.io</a></p><h2 id="Install-with-NPM"><a href="#Install-with-NPM" class="headerlink" title="Install with NPM"></a>Install with NPM</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install onsenui --save</span><br><span class="line">npm install onsenui vue-onsenui</span><br></pre></td></tr></table></figure><h2 id="playground"><a href="#playground" class="headerlink" title="playground"></a>playground</h2><p><a href="https://onsen.io/playground/" target="_blank" rel="noopener">https://onsen.io/playground/</a></p><h2 id="Ionicons-v4"><a href="#Ionicons-v4" class="headerlink" title="Ionicons v4"></a>Ionicons v4</h2><p><a href="https://ionicons.com/" target="_blank" rel="noopener">https://ionicons.com/</a></p><p><img src="https://blog.ionicframework.com/wp-content/uploads/2018/05/new-icons.gif"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;onsen-UI&quot;&gt;&lt;a href=&quot;#onsen-UI&quot; class=&quot;headerlink&quot; title=&quot;onsen UI&quot;&gt;&lt;/a&gt;onsen UI&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://cordova.apache.org/docs/en/la
+        &lt;h1 id=&quot;Onsen-UI&quot;&gt;&lt;a href=&quot;#Onsen-UI&quot; class=&quot;headerlink&quot; title=&quot;Onsen UI&quot;&gt;&lt;/a&gt;Onsen UI&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://onsen.io&quot; target=&quot;_blank&quot; rel
+      
+    
+    </summary>
+    
+      <category term="学习资料" scheme="https://bluray.github.io/categories/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/"/>
+    
+    
+      <category term="GitHub" scheme="https://bluray.github.io/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>移动平台开发学习</title>
+    <link href="https://bluray.github.io/2019/03/mobileDevStudy/"/>
+    <id>https://bluray.github.io/2019/03/mobileDevStudy/</id>
+    <published>2019-03-11T05:05:06.000Z</published>
+    <updated>2019-03-11T08:46:00.922Z</updated>
+    
+    <content type="html"><![CDATA[<p>[TOC]</p><h1 id="Cordova"><a href="#Cordova" class="headerlink" title="Cordova"></a>Cordova</h1><p><a href="https://cordova.apache.org/docs/en/latest/guide/cli/index.html" target="_blank" rel="noopener">https://cordova.apache.org/docs/en/latest/guide/cli/index.html</a></p><h2 id="Create-your-first-Cordova-app"><a href="#Create-your-first-Cordova-app" class="headerlink" title="Create your first Cordova app"></a>Create your first Cordova app</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo npm install -g cordova</span><br></pre></td></tr></table></figure><h2 id="Create-the-App"><a href="#Create-the-App" class="headerlink" title="Create the App"></a>Create the App</h2><p>Go to the directory where you maintain your source code, and create a cordova project:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cordova create hello com.example.hello HelloWorld</span><br></pre></td></tr></table></figure></p><p>This creates the required directory structure for your cordova app. By default, the cordova create script generates a skeletal web-based application whose home page is the project’s www/index.html file.</p><h2 id="Add-Platforms"><a href="#Add-Platforms" class="headerlink" title="Add Platforms"></a>Add Platforms</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ cordova platform add ios</span><br><span class="line">$ cordova platform add android</span><br><span class="line">$ cordova platform ls</span><br></pre></td></tr></table></figure><h2 id="Install-pre-requisites-for-building"><a href="#Install-pre-requisites-for-building" class="headerlink" title="Install pre-requisites for building"></a>Install pre-requisites for building</h2><p>To build and run apps, you need to install SDKs for each platform you wish to target. Alternatively, if you are using browser for development you can use browser platform which does not require any platform SDKs.</p><h2 id="Build-the-App"><a href="#Build-the-App" class="headerlink" title="Build the App"></a>Build the App</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cordova build</span><br><span class="line">$ cordova build ios</span><br></pre></td></tr></table></figure><h2 id="Test-the-App"><a href="#Test-the-App" class="headerlink" title="Test the App"></a>Test the App</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cordova <span class="built_in">emulate</span> android</span><br><span class="line">$ cordova run android</span><br></pre></td></tr></table></figure><h2 id="Add-Plugins"><a href="#Add-Plugins" class="headerlink" title="Add Plugins"></a>Add Plugins</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cordova plugin search camera</span><br></pre></td></tr></table></figure><h2 id="Using-merges-to-Customize-Each-Platform"><a href="#Using-merges-to-Customize-Each-Platform" class="headerlink" title="Using merges to Customize Each Platform"></a>Using merges to Customize Each Platform</h2><h2 id="Updating-Cordova-and-Your-Project"><a href="#Updating-Cordova-and-Your-Project" class="headerlink" title="Updating Cordova and Your Project"></a>Updating Cordova and Your Project</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h1 id=&quot;Cordova&quot;&gt;&lt;a href=&quot;#Cordova&quot; class=&quot;headerlink&quot; title=&quot;Cordova&quot;&gt;&lt;/a&gt;Cordova&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://cordova.apache.org/d
       
     
     </summary>
