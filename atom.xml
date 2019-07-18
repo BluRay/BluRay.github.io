@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bluray.github.io/"/>
-  <updated>2019-03-14T07:27:18.869Z</updated>
+  <updated>2019-07-18T08:18:38.218Z</updated>
   <id>https://bluray.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World----</title>
+    <link href="https://bluray.github.io/2019/07/hello-world/"/>
+    <id>https://bluray.github.io/2019/07/hello-world/</id>
+    <published>2019-07-18T08:18:38.218Z</published>
+    <updated>2019-07-18T08:18:38.218Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://172.20.10.2:1111" target="_blank" rel="noopener">APP程序测试</a></p><p><a href="http://127.0.0.1/doscan.html" target="_blank" rel="noopener">摄像头测试</a></p><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;http://172.20.10.2:1111&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;APP程序测试&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://127.0.0.1/doscan.html&quot; target=&quot;_blank
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>移动平台开发学习2</title>
@@ -72,9 +94,9 @@
     <link href="https://bluray.github.io/2019/03/yinanphoto/"/>
     <id>https://bluray.github.io/2019/03/yinanphoto/</id>
     <published>2019-03-07T05:37:29.000Z</published>
-    <updated>2019-06-17T03:15:17.074Z</updated>
+    <updated>2019-07-18T08:23:43.194Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="start"><a href="#start" class="headerlink" title="start"></a>start</h2><table><thead><tr><th style="text-align:center"><img src="/img/yinan/013.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/013.jpg');"></th></tr></thead><tbody><tr><td style="text-align:center">2019-06-21 6个月了</td></tr><tr><td style="text-align:center"><img src="/img/yinan/012.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/012.jpg');"></td></tr><tr><td style="text-align:center">2019-06-21 6个月了</td></tr><tr><td style="text-align:center"><img src="/img/yinan/011.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/011.jpg');"></td></tr><tr><td style="text-align:center">2019-05-19 南岳祈福</td></tr><tr><td style="text-align:center"><img src="/img/yinan/010.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/010.jpg');"></td></tr><tr><td style="text-align:center">2019-05-19 南岳祈福</td></tr><tr><td style="text-align:center"><img src="/img/yinan/009.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/009.jpg');"></td></tr><tr><td style="text-align:center">2019-05-05 望城小住</td></tr><tr><td style="text-align:center"><img src="/img/yinan/008.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/008.jpg');"></td></tr><tr><td style="text-align:center">2019-05-04 望城小住 游泳去</td></tr><tr><td style="text-align:center"><img src="/img/yinan/007.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/007.jpg');"></td></tr><tr><td style="text-align:center">2019-05-04 望城小住 游泳去</td></tr><tr><td style="text-align:center"><img src="/img/yinan/006.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/006.jpg');"></td></tr><tr><td style="text-align:center">2019-04 新帽子不错</td></tr><tr><td style="text-align:center"><img src="/img/yinan/005.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/005.jpg');"></td></tr><tr><td style="text-align:center">2019-04 妈妈感冒了</td></tr><tr><td style="text-align:center"><img src="/img/yinan/004.jpg" style="cursor:pointer" width="400px" height="300px" onclick="window.open('/img/yinan/004.jpg');"></td></tr><tr><td style="text-align:center">2019-04 最喜欢的小玩具</td></tr><tr><td style="text-align:center"><img src="/img/yinan/003.jpg" style="cursor:pointer" width="400px" height="300px" onclick="window.open('/img/yinan/003.jpg');"></td></tr><tr><td style="text-align:center">2019-04-14 大摇篮好好玩</td></tr><tr><td style="text-align:center"><img src="/img/yinan/1975730200.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/1975730200.jpg');"></td></tr><tr><td style="text-align:center">2019-02-05 春节</td></tr><tr><td style="text-align:center"><img src="/img/yinan/001.jpg" style="cursor:pointer" width="400px" height="300px" onclick="window.open('/img/yinan/001.jpg');"></td></tr><tr><td style="text-align:center">2018-12-14 产房</td></tr><tr><td style="text-align:center"><img src="/img/yinan/000.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/000.jpg');"></td></tr><tr><td style="text-align:center">2018-12-08 省妇幼待产</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<h2 id="start"><a href="#start" class="headerlink" title="start"></a>start</h2><table><thead><tr><th style="text-align:center"><img src="/img/yinan/018.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/012.jpg');"></th></tr></thead><tbody><tr><td style="text-align:center">2019-06-29 和爸爸合影</td></tr><tr><td style="text-align:center"><img src="/img/yinan/017.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/012.jpg');"></td></tr><tr><td style="text-align:center">2019-06-29 和爸爸合影</td></tr><tr><td style="text-align:center"><img src="/img/yinan/016.jpg" style="cursor:pointer" width="400px" height="400px" onclick="window.open('/img/yinan/012.jpg');"></td></tr><tr><td style="text-align:center">2019-06-13 生日快乐</td></tr><tr><td style="text-align:center"><img src="/img/yinan/015.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/012.jpg');"></td></tr><tr><td style="text-align:center">2019 一大早就出门了</td></tr><tr><td style="text-align:center"><img src="/img/yinan/014.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/012.jpg');"></td></tr><tr><td style="text-align:center">2019-06-29 玩具枪玩得很开心</td></tr><tr><td style="text-align:center"><img src="/img/yinan/013.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/013.jpg');"></td></tr><tr><td style="text-align:center">2019-06-21 6个月了</td></tr><tr><td style="text-align:center"><img src="/img/yinan/012.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/012.jpg');"></td></tr><tr><td style="text-align:center">2019-06-21 6个月了</td></tr><tr><td style="text-align:center"><img src="/img/yinan/011.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/011.jpg');"></td></tr><tr><td style="text-align:center">2019-05-19 南岳祈福</td></tr><tr><td style="text-align:center"><img src="/img/yinan/010.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/010.jpg');"></td></tr><tr><td style="text-align:center">2019-05-19 南岳祈福</td></tr><tr><td style="text-align:center"><img src="/img/yinan/009.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/009.jpg');"></td></tr><tr><td style="text-align:center">2019-05-05 望城小住</td></tr><tr><td style="text-align:center"><img src="/img/yinan/008.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/008.jpg');"></td></tr><tr><td style="text-align:center">2019-05-04 望城小住 游泳去</td></tr><tr><td style="text-align:center"><img src="/img/yinan/007.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/007.jpg');"></td></tr><tr><td style="text-align:center">2019-05-04 望城小住 游泳去</td></tr><tr><td style="text-align:center"><img src="/img/yinan/006.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/006.jpg');"></td></tr><tr><td style="text-align:center">2019-04 新帽子不错</td></tr><tr><td style="text-align:center"><img src="/img/yinan/005.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/005.jpg');"></td></tr><tr><td style="text-align:center">2019-04 妈妈感冒了</td></tr><tr><td style="text-align:center"><img src="/img/yinan/004.jpg" style="cursor:pointer" width="400px" height="300px" onclick="window.open('/img/yinan/004.jpg');"></td></tr><tr><td style="text-align:center">2019-04 最喜欢的小玩具</td></tr><tr><td style="text-align:center"><img src="/img/yinan/003.jpg" style="cursor:pointer" width="400px" height="300px" onclick="window.open('/img/yinan/003.jpg');"></td></tr><tr><td style="text-align:center">2019-04-14 大摇篮好好玩</td></tr><tr><td style="text-align:center"><img src="/img/yinan/1975730200.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/1975730200.jpg');"></td></tr><tr><td style="text-align:center">2019-02-05 春节</td></tr><tr><td style="text-align:center"><img src="/img/yinan/001.jpg" style="cursor:pointer" width="400px" height="300px" onclick="window.open('/img/yinan/001.jpg');"></td></tr><tr><td style="text-align:center">2018-12-14 产房</td></tr><tr><td style="text-align:center"><img src="/img/yinan/000.jpg" style="cursor:pointer" width="300px" height="400px" onclick="window.open('/img/yinan/000.jpg');"></td></tr><tr><td style="text-align:center">2018-12-08 省妇幼待产</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
@@ -119,27 +141,6 @@
       <category term="GitHub" scheme="https://bluray.github.io/tags/GitHub/"/>
     
       <category term="IT技术" scheme="https://bluray.github.io/tags/IT%E6%8A%80%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World----</title>
-    <link href="https://bluray.github.io/2019/03/hello-world/"/>
-    <id>https://bluray.github.io/2019/03/hello-world/</id>
-    <published>2019-03-06T07:03:54.112Z</published>
-    <updated>2019-03-06T07:00:40.504Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
     
   </entry>
   
